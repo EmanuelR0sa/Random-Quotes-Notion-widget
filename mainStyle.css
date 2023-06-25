@@ -8,11 +8,18 @@
 }
 
 
-#phraseDisplay{
+#quote{
     color: rgb(0, 0, 0);
-    font-size: 16px;
+    font-size: 24px;
     font-family: 'Caveat', cursive;
 }
+
+#author{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-family: 'Caveat', cursive;
+}
+
 
 #randomButton{
     border: none;
@@ -31,13 +38,16 @@
     padding: 20px;
     background-color: #f0f0f0;
     border-radius: 10px;
+    min-width: 350px;
+    min-height: 175px;
     position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  text-align: justify;
 }
 
 .bi-quote{
-    color: #3f3f3f;
+    color: #666666;
 }
 
