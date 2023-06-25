@@ -1,0 +1,43 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+#phraseDisplay{
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-family: 'Caveat', cursive;
+}
+
+#randomButton{
+    border: none;
+    height: 20px;
+    width: 20px;
+    border-radius: 50px;
+    margin-top: 5px;
+    background-color: #ffffff;
+}
+
+#randomButton:hover{
+  cursor: pointer;
+}
+
+.card{
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bi-quote{
+    color: #3f3f3f;
+}
+
