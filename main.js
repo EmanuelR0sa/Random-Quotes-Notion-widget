@@ -176,7 +176,6 @@ function displayQuote() {
 displayQuote();
 
 
-// <i class="bi bi-brightness-high-fill"></i>
 
 //dark mode
 
